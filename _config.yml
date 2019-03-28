@@ -1,7 +1,7 @@
 # main text of home
 name: bbj
 bio: A Man who travels the world eating noodles
-
+remote_theme : sergiokopplin/indigo
 # twitter summary info
 description: A blog about technology and stuff related
 
