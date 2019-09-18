@@ -119,6 +119,9 @@ defaults:
         -
           label: Categories
           url: /tabs/categories/
+        -
+          label: :title
+          url: /categories/:title
   -
     scope:
       path: tabs
