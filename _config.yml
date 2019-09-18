@@ -2,32 +2,33 @@
 # © 2017-2019 Cotes Chung
 # MIT licensed
 
+
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Bae Byoung Joo
+title: Chirpy
 
-description: 'No pain, No gain.'
+description: 'A text-based Jekyll theme.'
 
 # Replace with your domain, e.g. "https://username.github.io"
-url: 'https://bx2j.github.io'
+url: 'https://www.example.com'
 
-author: Bae Byoung Joo                          # change to your full name
+author: Chirpy                          # change to your full name
 
-logo: /assets/img/profile.jpg    # Support network resources.
+logo: /assets/img/sample/profile.jpg    # Support network resources.
 
 github:
-  username: bx2j             # change to your github username
+  username: github_username             # change to your github username
 
-#twitter:
-#  username: twitter_username            # change to your twitter username
+twitter:
+  username: twitter_username            # change to your twitter username
 
 social:
-  name: Bae Byoung Joo                          # change to your full name
-  email: ulsanbbj@gmail.com             # change to your email address
+  name: Chirpy                          # change to your full name
+  email: example@doamin.com             # change to your email address
   links:
-    #- https://twitter.com/bx2j      # change to your twitter homepage
-    - https://github.com/bx2j       # change to your github homepage
+    - https://twitter.com/username      # change to your twitter homepage
+    - https://github.com/username       # change to your github homepage
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
@@ -50,6 +51,7 @@ first_run: 2019
 
 # boolean type, gobal switch for ToC in posts.
 toc: true
+
 
 # if your site type is Project Pages site, change below value to '/projectname'
 baseurl: ''
@@ -128,7 +130,7 @@ defaults:
           label: Home
           url: /
 
-timezone: Asia/Seoul
+timezone: Asia/Shanghai
 
 sass:
   sass_dir: /assets/css
