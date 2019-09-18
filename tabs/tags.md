@@ -23,16 +23,4 @@ title: Tags
     <a class="tag" href="{{ site.baseurl }}/tags/{{ t | downcase | replace: ' ', '-' }}/">{{ t }}<span class="text-muted">{{ site.tags[t].size }}</span></a>
   </div>
 {% endfor %}
-
-{% for p in site.posts %}
-  <div>
-    <a class="tag" href="{{ site.baseurl }}{{ p.url }}/">{{ p.title }}</a>
-  </div>
-{% endfor %}
-
-{% for t in site.tags %}
-  <div>
-    <span>{{ t }}</span>
-  </div>
-{% endfor %}
 </div>
