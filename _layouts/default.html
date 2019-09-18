@@ -1,54 +1,44 @@
 ---
 layout: compress
+# Default layout
+# © 2017-2019 Cotes Chung
+# MIT Licensed
 ---
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
-    {% if site.analytics-google %}
-        {% include analytics-google.html %}
-    {% endif %}
+  {% include head.html %}
 
-    <meta charset="utf-8">
-    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
-    <meta name=viewport content="width=device-width, initial-scale=1">
+  <body data-spy="scroll" data-target="#toc">
+    <div id="sidebar" class="d-flex flex-column">
+      {% include sidebar.html %}
+    </div>
+    <div id="main-wrap">
+      {% include topbar.html %}
+      <div id="main">
+        <div class="row justify-content-center bg-white">
 
-    <meta name=description content="{{ site.bio }}">
-    <meta name=author content="{{ site.name }}">
-    <meta property="og:image" content="{{ site.url }}/{{ site.picture }}">
-    <meta property="og:type" content="profile">
+        {% capture _content %}
+          {{ content }}
+        {% endcapture %}
 
-    {% seo %}
-    
-    {% include favicon.html %}
+        {% include fixlinenos.html %}
+        {{ _content }}
 
-    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
-
-    <style>
-    {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
-    {{ scss_sheet | scssify }}
-    </style>
-
-</head>
-<body>
-
-    <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
-        {% if page.tag %}
-            <div class="post">
-        {% else %}
-            {% if showHeader != true %}
-                <div class="page {{ page.title | downcase }}">
-            {% else %}
-                <div class="{{ page.title | downcase }}">
-            {% endif %}
-        {% endif %}
-
-            {{ content }}
         </div>
+        {% include footer.html %}
+      </div>
+      {% include search-results.html %}
     </div>
 
-    {% include icons.html %}
+    <div id="mask"></div>
 
-</body>
+    {% include search.html %}
+
+    <a id="back-to-top" href="#" class="btn btn-lg btn-box-shadow" role="button">
+      <i class="fas fa-angle-up"></i>
+    </a>
+  </body>
+
 </html>
