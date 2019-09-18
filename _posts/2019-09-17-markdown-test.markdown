@@ -53,11 +53,11 @@ description: Markdown test
 
 {% highlight html %}
 <div class="side-by-side">
-    <div class="toleft">
+    <div class="toright">
         <p>bx2j</p>
     </div>
 
-    <div class="toright">
+    <div class="toleft">
         <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
         <figcaption class="caption">Photo by bx2j</figcaption>
     </div>
