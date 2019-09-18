@@ -30,9 +30,9 @@ title: Tags
   </div>
 {% endfor %}
 
-{% for ta in site.tags %}
+{% for t in site.tags %}
   <div>
-    <a class="tag" href="{{ site.baseurl }}{{ ta.url }}/">{{ ta.title }}</a>
+    <span>{{ t }}</span>
   </div>
 {% endfor %}
 </div>
