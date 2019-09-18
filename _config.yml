@@ -2,7 +2,6 @@
 # © 2017-2019 Cotes Chung
 # MIT licensed
 
-
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
@@ -52,9 +51,8 @@ first_run: 2019
 # boolean type, gobal switch for ToC in posts.
 toc: true
 
-
 # if your site type is Project Pages site, change below value to '/projectname'
-baseurl: '/'
+baseurl: ''
 
 paginate: 10
 
