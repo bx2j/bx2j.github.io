@@ -37,10 +37,10 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 #--------------------------
 
 # Change to your Google Analytics ID
-google_analytics:
-  id: 'UA-*********-*'
+#google_analytics:
+#  id: 'UA-*********-*'
   # Switch for Google Analytics pageviews. DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
-  pv: false
+#  pv: false
 
 disqus:
   shortname: 'disqus'   # Change to your Disqus shortname.
@@ -130,7 +130,7 @@ defaults:
           label: Home
           url: /
 
-timezone: Asia/Shanghai
+timezone: Asia/Seoul
 
 sass:
   sass_dir: /assets/css
