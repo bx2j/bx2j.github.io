@@ -117,7 +117,7 @@ defaults:
           label: Home
           url: /
         -
-          label: Categories12
+          label: Categories
           url: /tabs/categories/
   -
     scope:
