@@ -9,7 +9,8 @@
 
     <span id="breadcrumb">
       {% for item in page.breadcrumb %}
-      <span>item.label = {{item.label}}</span>
+      <span>item = {{item}} // </span>
+      <span>item.label = {{item.label}} //</span>
         {% if item.url %}
         <span>
           <a href="{{ site.baseurl }}{{ item.url | remove: '.html'}}">
