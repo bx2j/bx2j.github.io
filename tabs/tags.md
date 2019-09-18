@@ -26,7 +26,7 @@ title: Tags
 
 {% for p in site.posts %}
   <div>
-    <a class="tag" href="{{ site.baseurl }}{{ p.url }}/">{{ p }}</a>
+    <a class="tag" href="{{ site.baseurl }}{{ p.url }}/">{{ p.title }}</a>
   </div>
 {% endfor %}
 </div>
