@@ -117,11 +117,8 @@ defaults:
           label: Home
           url: /
         -
-          label: Categories
+          label: Categories12
           url: /tabs/categories/
-        -
-          label: :title
-          url: /categories/:title
   -
     scope:
       path: tabs
