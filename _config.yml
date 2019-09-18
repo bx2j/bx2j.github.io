@@ -54,7 +54,7 @@ toc: true
 
 
 # if your site type is Project Pages site, change below value to '/projectname'
-baseurl: '/bx2j.github.io'
+baseurl: ''
 
 paginate: 10
 
