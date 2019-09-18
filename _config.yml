@@ -20,6 +20,9 @@ logo: /assets/img/profile.jpg    # Support network resources.
 github:
   username: bx2j                 # change to your github username
 
+stackoverflow:
+  username: 8794514/bx2j
+
 # twitter:
   # username: twitter_username            # change to your twitter username
 
