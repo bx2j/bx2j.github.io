@@ -1,5 +1,5 @@
 ---
-title: "Customize the Favicon"
+title: "Favicon the Favicon"
 categories: [Study, Server]
 tags: [test]
 toc: false
