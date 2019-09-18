@@ -15,7 +15,7 @@ url: 'https://bx2j.github.io'
 
 author: Bae Byoung Joo                          # change to your full name
 
-logo: /assets/img/sample/profile.jpg    # Support network resources.
+logo: /assets/img/profile.jpg    # Support network resources.
 
 github:
   username: bx2j             # change to your github username
@@ -27,8 +27,8 @@ social:
   name: Bae Byoung Joo                          # change to your full name
   email: ulsanbbj@gmail.com             # change to your email address
   links:
-    - https://twitter.com/bx2j      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    #- https://twitter.com/bx2j      # change to your twitter homepage
+    - https://github.com/bx2j       # change to your github homepage
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
