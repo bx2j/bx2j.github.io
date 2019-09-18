@@ -21,7 +21,7 @@ title: Tags
 {% for t in sorted_tags %}
   <div>
     <a class="tag" href="{{ site.baseurl }}/tags/{{ t | downcase | replace: ' ', '-' }}/">{{ t }}<span class="text-muted">{{ site.tags[t].size }}</span></a>
-    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    <a class="tag" href="{{ site.baseurl }}{{ post.url }}"><span class="text-muted">{{ site.tags[t].size }}</span>{{ post.title }}</a>
   </div>
 {% endfor %}
 
