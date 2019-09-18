@@ -20,8 +20,8 @@ title: Tags
 
 {% for t in sorted_tags %}
   <div>
+    <span>{{ site.tags }}</span>
     <a class="tag" href="{{ site.baseurl }}/tags/{{ t | downcase | replace: ' ', '-' }}/">{{ t }}<span class="text-muted">{{ site.tags[t].size }}</span></a>
-    <a class="tag" href="{{ site.baseurl }}/tags/{{ t }}/">{{ t }}<span class="text-muted">{{ site.tags[t].size }}</span></a>
   </div>
 {% endfor %}
 
