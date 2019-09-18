@@ -6,29 +6,32 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Chirpy
+title: bx2j
 
-description: 'A text-based Jekyll theme.'
+description: 'Let's get better today than yesterday.'
 
 # Replace with your domain, e.g. "https://username.github.io"
 url: 'https://bx2j.github.io'
 
-author: Chirpy                          # change to your full name
+author: Bae Byoung Joo                  # change to your full name
 
-logo: /assets/img/sample/profile.jpg    # Support network resources.
+logo: /assets/img/profile.jpg    # Support network resources.
 
 github:
-  username: github_username             # change to your github username
+  username: bx2j                        # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+#twitter:
+#  username: twitter_username            # change to your twitter username
+
+stackoverflow:
+  username: 8794514/mark3
 
 social:
-  name: Chirpy                          # change to your full name
-  email: example@doamin.com             # change to your email address
+  name: Bae Byoung Joo                          # change to your full name
+  email: ulsanbbj@gmail.com             # change to your email address
   links:
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    # - https://twitter.com/username      # change to your twitter homepage
+    - https://github.com/bx2j       # change to your github homepage
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
