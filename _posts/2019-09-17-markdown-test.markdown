@@ -22,18 +22,18 @@ description: Markdown test
 {% endhighlight %}
 
 ### test3
-** bold **<br>
+** bold **
 **Image** on the left and **Text** on the right:
 
 {% highlight html %}
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
+        <figcaption class="caption">Photo by bx2j</figcaption>
     </div>
 
     <div class="toright">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>bx2j</p>
     </div>
 </div>
 {% endhighlight %}
@@ -45,7 +45,7 @@ description: Markdown test
     </div>
 
     <div class="toright">
-        <p></p>
+        <p>bx2j</p>
     </div>
 </div>
 
@@ -54,7 +54,7 @@ description: Markdown test
 {% highlight html %}
 <div class="side-by-side">
     <div class="toleft">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>bx2j</p>
     </div>
 
     <div class="toright">
@@ -63,3 +63,14 @@ description: Markdown test
     </div>
 </div>
 {% endhighlight %}
+
+<div class="side-by-side">
+    <div class="toright">
+        <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
+        <figcaption class="caption">Photo by bx2j</figcaption>
+    </div>
+
+    <div class="toleft">
+        <p>bx2j</p>
+    </div>
+</div>
