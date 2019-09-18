@@ -1,7 +1,7 @@
 ---
 title: "Customize the Favicon"
 categories: [Study, Server]
-tags: [favicon]
+tags: [test]
 toc: false
 ---
 
