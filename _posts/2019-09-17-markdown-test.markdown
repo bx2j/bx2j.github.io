@@ -6,7 +6,7 @@ headerImage: false
 tag:
 - markdown
 - test
-category: markdown test
+category: Server
 author: bx2j
 description: Markdown test
 ---
