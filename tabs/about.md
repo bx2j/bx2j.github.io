@@ -6,33 +6,16 @@ title: About
 # MIT License
 ---
 
-**Chirpy** is an responsive web design Jekyll theme developed using Bootstrap 4, designed by [Cotes Chung](https://github.com/cotes2020).
+**bx2j's technical blog** blah blah~
 
-## Features
+## Skills
 
-* Last modified date
-* Table of Contents
-* Disqus Comments
-* Syntax highlighting
-* Two Level Categories
-* Search
-* HTML compress
-* Atom feeds
-* Google Analytics
-* Pageviews (Advanced)
+* HTML
+* Css Frameworks (Bootstrap etc...)
+* Java
+* Javascript
+* MySQL - MariaDB
 
-
-## Used by
-
-* [Cotes' Blog](https://blog.cotes.info)
-
-## Homepage
-
-You can fork this project from the [Homepage](https://github.com/cotes2020/jekyll-theme-chirpy/). Any issues and suggestions are welcome!
-
-## Usage
-
-Follow the [tutorial posts]({{ site.baseurl }}/categories/tutorial/), it will help you build a site quickly.
 
 ## License
 
